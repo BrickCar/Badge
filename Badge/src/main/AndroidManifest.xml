@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.badge" >
+
+<!--    HuaWei-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+
+<!--    Sony-->
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonyericsson.home.action.UPDATE_BADGE" />
+
+<!--    samsung-->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+
+<!--    联想ZUK-->
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+
+    <application></application>
+
+</manifest>
